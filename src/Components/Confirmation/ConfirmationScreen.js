@@ -80,7 +80,7 @@ const ConfirmationScreen = () => {
       try {
         const currentUser = Parse.User.current();
         if (!currentUser) {
-            const stringFail = '${currentUser}... User is not logged in'
+            const stringFail = '${currentUser}... User is not logged in';
             alert(stringFail);
             //console.error('User is not logged in.');
             // Redirect the user to the login page or show a login prompt. Adjust the path as necessary.
@@ -89,7 +89,7 @@ const ConfirmationScreen = () => {
         }
         const Medication = new Parse.Object('Medication');
         //Object.keys(formData).forEach((key) => {
-        for (const [key, value] of Object.entries(formData)) {
+        for (const [key] of Object.entries(formData)) {
           Medication.set(key, formData[key]);
         };
   
