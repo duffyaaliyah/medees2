@@ -25,7 +25,7 @@ import * as Env from "./environments.js";
 import Parse from "parse";
 import React, { useEffect } from "react";
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'; // Import BrowserRouter and Routes
-import Components from './Components/Components.js';
+//import Components from './Components/Components.js';
 import Main from './Components/Main/Main'; // Import your Main component
 //import Confirmation from './Components/Confirmation/Confirmation'; // Import your Confirmation component
 import ConfirmationScreen from './Components/Confirmation/ConfirmationScreen';

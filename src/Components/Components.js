@@ -25,8 +25,7 @@ export default function Components(){
                 //{/* <Route path="*" element={<Navigate to="/auth" replace />} />  */}
 
               //  <Route path="/footer"      element={<ProtectedRoute element={<Footer />} />} />
-              //  <Route path="/confirmation" element={<ProtectedRoute  element={<Confirmation />} />} />
-              //  {/*4/21/24 edited element from ConfirmationScreen to just Confirmation */}
+            //  {/*4/21/24 edited element from ConfirmationScreen to just Confirmation */}
               //   <Route path="/"           element={<ProtectedRoute element={<Main />} />} />
               //  <Route path="*"            element={<Navigate to="/auth" replace />} /> 
         // </Routes>
@@ -39,7 +38,7 @@ import React from "react";
 import AuthModule from "./Authentication/Auth"; 
 import AuthRegister from "./Authentication/AuthRegister"; 
 import AuthLogin from "./Authentication/AuthLogin"; 
-import ProtectedRoute from "./ProtectedRoute/ProtectedRoute"; 
+//import ProtectedRoute from "./ProtectedRoute/ProtectedRoute"; 
 import Main from "./Main/Main"; 
 import ConfirmationScreen from "./Confirmation/ConfirmationScreen"; 
 import Footer from "./Footer/Footer"; 
