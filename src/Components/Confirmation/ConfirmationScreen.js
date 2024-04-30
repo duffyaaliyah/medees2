@@ -80,7 +80,7 @@ const ConfirmationScreen = () => {
       try {
         const currentUser = Parse.User.current();
         if (!currentUser) {
-            const stringFail = '${currentUser}... User is not logged in';
+            const stringFail = `${currentUser}... User is not logged in`;
             alert(stringFail);
             //console.error('User is not logged in.');
             // Redirect the user to the login page or show a login prompt. Adjust the path as necessary.
